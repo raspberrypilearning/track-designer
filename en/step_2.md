@@ -2,7 +2,7 @@
 
 In this step, you will design your track using the parts available in the parts folder.  
 
-![Output of step 2.](images/output2.png)
+![A strip of examples showing different options for how a track could be designed. The first is a track with spirals, curved ramps and is coloured in pink and black, the second uses cube GameObjects with a hidden rainbow path, the third uses several spirals on top of each other.](images/output2-strip.png)
 
 ### Create a project with the starter package
 
@@ -139,7 +139,7 @@ Add in the remaining parts for your track. Continue to add parts from the bottom
 
 ![All of the parts have now been added to the scene. There is a curved ramp that leads to two spirals and then another two curved ramps.](images/all-parts.png)
 
---- /task ----
+--- /task ---
 
 ### Add materials to your track
 
