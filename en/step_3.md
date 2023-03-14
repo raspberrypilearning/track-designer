@@ -1,7 +1,60 @@
-## What next?
+## Add a ball
 
-If you are following the [PathwayName](https://projects.raspberrypi.org/en/raspberrypi/pathway-name) pathway, you can move on to the [ProjectName](https://projects.raspberrypi.org/en/projects/project-name) project. In this project, you will make a (add description here).
+In this step you will add a ball and place it at the top of your track so that it rolls down. 
 
-![ProjectName project](images/projectname-project.png)
+![A strip of four examples showing the output of this step.](images/step-three-output.png)
 
-If you want to have more fun exploring Scratch, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=scratch&curriculum%5B%5D=%201).
+### Add a sphere
+
+--- task ---
+
+Add a Sphere GameObject. Drag a material of your choice into the sphere. 
+
+--- /task ---
+
+--- task ---
+
+Change the scale of your ball. We used ... 
+
+
+--- /task ---
+
+
+--- task ---
+
+Position the ball at the top of your track.
+
+![Ball with colourful pattern positioned at the top of a ramp.](images/ball-start.png)
+
+
+--- /task ---
+
+### React to gravity
+
+--- task ---
+
+
+--- /task ---
+
+
+--- task ---
+
+**Test:** Play your scene and the ball should roll down your track. 
+
+**Debug:** If your ball gets stuck then you may need to redesign your track.
+
+--- /task ---
+
+
+### Apply physics material
+
+--- task ---
+
+
+
+--- /task ---
+
+--- task ---
+
+
+--- /task ----

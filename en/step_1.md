@@ -1,59 +1,58 @@
-## Introduction
+## You will make
 
-Add project description here. What will learners be making? Broadly what skills will they be learning?
+In this project you will design your own track to roll a ball down. You will also add in your own interactive objects to the track. 
 
-### What you will make
+You will:
+
++ Design a track by arranging GameObjects in the Scene view
++ Add spinning obstacles
++ Configure physics materials to control how objects interact
+
+![A strip of example project images.](images/example-projects.png)
+
+### You will need
+
+This project requires the Unity Editor, which can be installed from the Unity Hub. This is a large download and install, so we recommend you install it before starting this project.
+
+You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/unity-guide){:target="_blank"} to install Unity Hub and the Unity Editor for your operating system.
+
+You will also need to download the [Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
 
 --- no-print ---
-Add instructions for interacting with the embedded content here.
 
-<div class="scratch-preview">
-  <iframe allowtransparency="true" width="485" height="402" src="https://scratch.mit.edu/projects/embed/160619869/?autostart=false" frameborder="0"></iframe>
-</div>
+### Play 🎡
+
+Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. 
+
+<iframe allowtransparency="true" width="710" height="450" src="https://beckyfranks.github.io/BecsPixelArtReveal/" frameborder="0"></iframe>
+
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/showcase_static.png)
+![Complete project](images/static-pink.png)
 --- /print-only ---
 
---- collapse ---
----
-title: What you will need
----
-### Hardware
+### Get ideas 💭
 
-+ A computer or tablet capable of running Scratch 3
+You are going to make some design decisions to build own track.
 
-### Software
+Explore these example projects to get more ideas:
 
-+ Scratch 3 (either [online](https://scratch.mit.edu/){:target="_blank"} or [offline](https://scratch.mit.edu/download){:target="_blank"})
-+ Python 3
-+ This project can be completed in a web browser using [trinket.io](https://trinket.io/)
+[ADD DESCRIPTION](https://libxx1.github.io/bee){:target='_blank'}.
+![ADD DESCRIPTION.](images/bee.png){:width="400px"}
 
-### Downloads
+[ADD DESCRIPTION](https://libxx1.github.io/bee){:target='_blank'}.
+![ADD DESCRIPTION.](images/bee.png){:width="400px"}
 
-+ Download the project [starter file](https://rpf.io/p/en/projectName-go){:target="_blank"} if working offline
+<mark>MARC - add another example below</mark>
 
---- /collapse ---
+[ADD DESCRIPTION](https://libxx1.github.io/bee){:target='_blank'}.
+![ADD DESCRIPTION.](images/bee.png){:width="400px"}
 
---- collapse ---
----
-title: What you will learn
----
 
-+ Learning objective 1
-+ Learning objective 2
-+ Learning objective 3
 
---- /collapse ---
 
---- collapse ---
----
-title: Additional information for educators
----
 
-You can download the completed project [here](https://rpf.io/p/en/projectName-get){:target="_blank"}.
 
-If you need to print this project, please use the [printer-friendly version](https://projects.raspberrypi.org/en/projects/projectName/print){:target="_blank"}.
 
---- /collapse ---
+
