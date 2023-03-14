@@ -67,12 +67,6 @@ This will create a ground for your track to sit on.
 
 --- task ---
 
-**Reset** the 'Transform' properties to make sure that the plane is in the centre of your 3D world.
-
---- /task ---
-
---- task ---
-
 **Choose** a size for your plane by changing the 'X' and 'Z' scale values.
 
 Our example changes the 'Z' value to `2`:
@@ -97,13 +91,53 @@ Our example uses the 'Concrete' material:
 
 --- task ---
 
-Add in the parts.
+**Choose** where to place the goal for your track. 
 
-Ingredients for moving around etc...
+In the 'Project' window, go to 'Assets -> Parts'.
+
+Drag in the goal part to your scene. 
+
+--- /task ---
+
+--- task ---
+
+**Change** the 'Transform Position' values to X=`0`, Y=`0`, Z=`0` to start your part in the middle of your scene. 
+
+Move your goal part until you are satisfied with where it is positioned. 
+
+![A goal is positioned in the Scene view.](images/goal-position.png)
+
+ADD IN A MOVING GAMEOBJECT INGREDIENT!!!
+
+--- /task ---
+
+--- task ---
+
+It is practical to create your track from the **last** part to the **first**. 
+
+**Choose** the final part of your track that will link to your goal part. 
+
+Drag in your part and position it next to your goal. 
+
+![A final piece of track is positioned next to the goal.](images/final-part.png)
 
 [[[unity-scene-navigation]]]
 
 [[[unity-vertex-snapping]]]
+
+**Tip**: Look at your parts from lots of different angles to make sure that they are lined up correctly.
+
+**Tip**: It is OK to move your goal to a new position if you have decided it doesn't work where it is currently located.
+
+--- /task ---
+
+--- task ---
+
+Add in the remaining parts for your track. Continue to add parts from the bottom to the top.
+
+**Tip**: Make sure that the ball can roll down towards the goal.
+
+![All of the parts have now been added to the scene. There is a curved ramp that leads to two spirals and then another two curved ramps.](images/all-parts.png)
 
 --- /task ----
 
@@ -111,7 +145,11 @@ Ingredients for moving around etc...
 
 --- task ---
 
-Add materials & physics materials.
+**Choose:** a material for each piece in your track. 
+
+In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured material onto each piece in the Scene view.   
+
+![The example track is now coloured in using pink and black colours to make a vibrant effect.](images/track-materials.png)
 
 --- /task ----
 
