@@ -151,7 +151,7 @@ In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured 
 
 ![The example track is now coloured in using pink and black colours to make a vibrant effect.](images/track-materials.png)
 
---- /task ----
+--- /task ---
 
 --- task ---
 
@@ -159,7 +159,7 @@ Create a sky box for your scene.
 
 [[[unity-skybox]]]
 
---- /task ----
+--- /task ---
 
 
 
