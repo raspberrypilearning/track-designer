@@ -2,7 +2,7 @@
 
 In this step you will add a ball and place it at the top of your track so that it rolls down. 
 
-![A strip of three examples showing the output of this step.](images/step-three-output.png)
+![A strip of three examples showing the output of this step.](images/step3-output.png)
 
 ### Add a sphere
 
@@ -299,6 +299,8 @@ If you want to know the naming conventions to use for the other keys on your key
 --- task ---
 
 **Test** your ball controls by running your project. 
+
+![A strip of three examples showing the output of this step.](images/step3-output.png)
 
 --- /task ---
 

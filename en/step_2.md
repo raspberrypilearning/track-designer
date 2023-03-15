@@ -137,7 +137,7 @@ ADD IN A SCENE GIZMO INGREDIENT!!!
 
 --- /task ---
 
-### Add materials to your track
+### Add materials to your scene
 
 --- task ---
 
@@ -145,10 +145,19 @@ ADD IN A SCENE GIZMO INGREDIENT!!!
 
 In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured material onto each piece in the Scene view.   
 
+[[[unity-existing-material]]]
 [[[unity-material-with-texture]]]
-ADD IN A CREATE GLASS INGREDIENT!!!
+[[[unity-glass-material]]]
 
 ![The example track is now coloured in using pink and black colours to make a vibrant effect.](images/track-materials.png)
+
+--- /task ----
+
+--- task ---
+
+Create a sky box for your scene.
+
+[[[unity-skybox]]]
 
 --- /task ----
 

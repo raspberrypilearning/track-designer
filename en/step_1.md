@@ -4,8 +4,8 @@ In this project you will design your own track to roll a ball down. You will als
 
 You will:
 
-+ Design a track by arranging GameObjects in the Scene view
-+ Add spinning obstacles
++ Design a track by arranging GameObjects in the Scene view and adding spinning obstacles
++ Decide whether the player will control the ball and how the camera will work
 + Configure physics materials to control how objects interact
 
 ![A strip of example project images.](images/example-projects.png)
