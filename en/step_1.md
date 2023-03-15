@@ -38,8 +38,8 @@ You are going to make some design decisions to build own track.
 
 Explore these example projects to get more ideas:
 
-[ADD DESCRIPTION](https://libxx1.github.io/bee){:target='_blank'}.
-![ADD DESCRIPTION.](images/bee.png){:width="400px"}
+[A downhill run with spinning cubes and rectangles leading down to a covered tunnel with rainbow coloured tracks. The ball changes colour to match the track it is in. the end is a plane that changes colour to match the ball.](https://libxx1.github.io/track){:target='_blank'}.
+![A tunnel with rainbow coloured tracks leading down to a pink plane. Up the hill in the distance are obstacles made from cubes and capsules.](images/track.png){:width="400px"}
 
 [ADD DESCRIPTION](https://libxx1.github.io/bee){:target='_blank'}.
 ![ADD DESCRIPTION.](images/bee.png){:width="400px"}

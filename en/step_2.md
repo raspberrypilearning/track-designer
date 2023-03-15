@@ -89,53 +89,52 @@ Our example uses the 'Concrete' material:
 
 ### Design your track structure
 
+Your track needs:
++ A start
++ Middle pieces
++ A goal 
+
+It is practical to create your track from the **last** part (the goal) to the **first** part (the start). 
+
+**Tip**: Make sure that you design your track so that the ball can roll down towards the goal.
+
 --- task ---
 
-**Choose** where to place the goal for your track. 
-
-In the 'Project' window, go to 'Assets -> Parts'.
-
-Drag in the goal part to your scene. 
-
---- /task ---
+**Choose** your goal and drag the part into your scene. You could:
++ Use the plane as the goal
++ Use the existing 'goal' part from the 'Assets -> Parts' folder
++ Create your own goal from 3D objects
 
 --- task ---
 
-**Change** the 'Transform Position' values to X=`0`, Y=`0`, Z=`0` to start your part in the middle of your scene. 
+Set the transform position, rotation and scale of your goal until you are satisfied with where it is positioned.  
 
-Move your goal part until you are satisfied with where it is positioned. 
+**Tip:** The 'Transform Position' values X=`0`, Y=`0`, Z=`0` start your goal in the middle of your scene. 
 
 ![A goal is positioned in the Scene view.](images/goal-position.png)
 
-ADD IN A MOVING GAMEOBJECT INGREDIENT!!!
+ADD IN A TRANSFORM COMPONENT INGREDIENT!!!
+ADD IN A MOVING GAMEOBJECT IN SCENE VIEW INGREDIENT!!!
 
 --- /task ---
 
 --- task ---
 
-It is practical to create your track from the **last** part to the **first**. 
+**Choose** your parts one at a time starting with the part that links to your goal. 
 
-**Choose** the final part of your track that will link to your goal part. 
-
-Drag in your part and position it next to your goal. 
+Each time change the transform position, rotation, and scale if needed and make sure the track position lines up with the previous part. 
 
 ![A final piece of track is positioned next to the goal.](images/final-part.png)
+
+**Tip**: Look at your parts from lots of different angles to make sure that they are lined up correctly.
+
+**Tip**: It is OK to change the position of previous parts as you design and build your track.
 
 [[[unity-scene-navigation]]]
 
 [[[unity-vertex-snapping]]]
 
-**Tip**: Look at your parts from lots of different angles to make sure that they are lined up correctly.
-
-**Tip**: It is OK to move your goal to a new position if you have decided it doesn't work where it is currently located.
-
---- /task ---
-
---- task ---
-
-Add in the remaining parts for your track. Continue to add parts from the bottom to the top.
-
-**Tip**: Make sure that the ball can roll down towards the goal.
+ADD IN A SCENE GIZMO INGREDIENT!!!
 
 ![All of the parts have now been added to the scene. There is a curved ramp that leads to two spirals and then another two curved ramps.](images/all-parts.png)
 
@@ -148,6 +147,9 @@ Add in the remaining parts for your track. Continue to add parts from the bottom
 **Choose:** a material for each piece in your track. 
 
 In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured material onto each piece in the Scene view.   
+
+ADD IN A CREATE MATERIAL INGREDIENT!!!
+ADD IN A CREATE GLASS INGREDIENT!!!
 
 ![The example track is now coloured in using pink and black colours to make a vibrant effect.](images/track-materials.png)
 
