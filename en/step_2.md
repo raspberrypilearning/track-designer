@@ -63,6 +63,8 @@ Right-click on your scene in the Hierarchy window and choose **GameObject > 3D O
 
 This will create a ground for your track to sit on.
 
+[[[unity-plane]]]
+
 --- /task ---
 
 --- task ---
@@ -72,18 +74,6 @@ This will create a ground for your track to sit on.
 Our example changes the 'Z' value to `2`:
 
 ![The Transform pane in the Inspector window with Scale properties X=1, Y=1, and Z=2.](images/plane-transform.png)
-
---- /task ---
-
---- task ---
-
-In the Project window, click on **Materials > Obstacle Materials**.
-
-**Choose** a material for your plane and drag it onto the 'Scene' view. 
-
-Our example uses the 'Concrete' material:
-
-![The Scene View with a rectangle plane covered in a grey textured material.](images/concrete-plane.png)
 
 --- /task ---
 
@@ -105,6 +95,9 @@ It is practical to create your track from the **last** part (the goal) to the **
 + Use the existing 'goal' part from the 'Assets -> Parts' folder
 + Create your own goal from 3D objects
 
+[[[unity-model-gameobject]]]
+[[[unity-3d-objects]]]
+
 --- /task ---
 
 --- task ---
@@ -115,8 +108,10 @@ Set the transform position, rotation and scale of your goal until you are satisf
 
 ![A goal is positioned in the Scene view.](images/goal-position.png)
 
-ADD IN A TRANSFORM COMPONENT INGREDIENT!!!
-ADD IN A MOVING GAMEOBJECT IN SCENE VIEW INGREDIENT!!!
+[[[unity-scene-navigation]]]
+[[[unity-scene-top-down]]]
+[[[unity-3D-coordinates]]]
+[[[unity-transform-tools]]]
 
 --- /task ---
 
@@ -150,7 +145,7 @@ ADD IN A SCENE GIZMO INGREDIENT!!!
 
 In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured material onto each piece in the Scene view.   
 
-ADD IN A CREATE MATERIAL INGREDIENT!!!
+[[[unity-material-with-texture]]]
 ADD IN A CREATE GLASS INGREDIENT!!!
 
 ![The example track is now coloured in using pink and black colours to make a vibrant effect.](images/track-materials.png)

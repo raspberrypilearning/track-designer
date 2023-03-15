@@ -138,7 +138,7 @@ title: Make the camera follow a ball
 
 Position your camera so that it is behind the ball.
 
-Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align View to Selected**. 
+Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align With View**. 
 
 Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Create a new script called `CameraController`.
 
@@ -185,6 +185,8 @@ void LateUpdate()
 --- /code ---
 
 **Save** and return to Unity.
+
+With the 'Main Camera' selected, drag the `Ball` GameObject to the `Ball` variable in the Inspector window inside your `CameraController` script.
 
 --- /collapse ---
 
@@ -279,6 +281,8 @@ public class BallController : MonoBehaviour
 
 **Save** your code and return to Unity.
 
+With the 'Ball' GameObject selected in the 'Hierarchy' window. Drag the 'Main Camera' GameObject onto the `Camera Transform` variable in the 'Inspector' window inside the script.
+
 --- /collapse ---
 
 --- collapse ---
@@ -291,4 +295,11 @@ If you want to know the naming conventions to use for the other keys on your key
 --- /collapse ---
 
 --- /task ---
+
+--- task ---
+
+**Test** your ball controls by running your project. 
+
+--- /task ---
+
 
