@@ -96,8 +96,8 @@ public class Spin : MonoBehaviour
 
 **Choose** physics materials for your obstacles.
 
-[pick one]
-[make one]
+pick one
+make one
 
 --- /task ---
 

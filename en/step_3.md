@@ -80,6 +80,23 @@ In the Project window select 'Materials' and then 'PhysicsMaterials'. Right-clic
 
 --- task ---
 
+Give your physics material a sensible name. 
+
+Adjust the properties to create the effect you want:
+
++ **Dynamic friction ** - A value from 0-1. Friction when moving. 0 is like ice. 1 is hard to slow down.
++ **Static friction ** - 
++ **Bounce ** - 
+
+--- /task ---
+
+Here are some examples that you can use to get started.
+
+<mark>Add bounce and smooth</mark>
+
+
+--- task ---
+
 Name the material 'Bounce'.
 
 ![A screenshot showing the newly created 'Bounce' physics material.](images/bounce-material.png)
