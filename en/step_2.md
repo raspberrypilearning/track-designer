@@ -105,6 +105,8 @@ It is practical to create your track from the **last** part (the goal) to the **
 + Use the existing 'goal' part from the 'Assets -> Parts' folder
 + Create your own goal from 3D objects
 
+--- /task ---
+
 --- task ---
 
 Set the transform position, rotation and scale of your goal until you are satisfied with where it is positioned.  
