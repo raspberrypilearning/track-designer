@@ -128,7 +128,6 @@ Each time change the transform position, rotation, and scale if needed and make 
 **Tip**: It is OK to change the position of previous parts as you design and build your track.
 
 [[[unity-scene-navigation]]]
-
 [[[unity-vertex-snapping]]]
 
 ADD IN A SCENE GIZMO INGREDIENT!!!

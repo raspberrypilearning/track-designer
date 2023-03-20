@@ -8,23 +8,16 @@ In this step you will add a ball and place it at the top of your track so that i
 
 --- task ---
 
-Add a Sphere GameObject and rename it to `Ball`.
+Add a Sphere GameObject and rename it to `Ball`. 
 
-**Tip**: You may want to reset the 'Transform position' to place it in the centre of your scene.  
+Scale the ball to fit your project (we used  X=`0.25`, Y=`0.25`, Z=`0.25`).
 
---- /task ---
+Add a material for your ball.
 
---- task ---
-
-**Choose** a scale for your ball. 
-
-**Tip:** We used X=`0.25`, Y=`0.25`, Z=`0.25` in the Rainbow Run project which is a good size for the parts that you have if you haven't changed their scale. 
-
---- /task ---
-
---- task ---
-
-**Choose** a material for your ball.
+[[[unity-transform-tools]]]
+[[[unity-existing-material]]]
+[[[unity-material-with-texture]]]
+[[[unity-glass-material]]]
 
 ![A small ball with the purple marble effect material added to it.](images/purple-marble.png)
 
@@ -32,11 +25,15 @@ Add a Sphere GameObject and rename it to `Ball`.
 
 --- task ---
 
-Position the ball at the top of your track.
+Position the ball at the top of your track slightly higher than the track surface.
 
-![Ball with colourful pattern positioned at the top of a ramp.](images/ball-start.png)
+[[[unity-scene-navigation]]]
+[[[unity-scene-top-down]]]
+[[[unity-3D-coordinates]]]
 
 **Tip**: The 'Top' view is a good view for making sure that your ball is in the right place.
+
+![Ball with colourful pattern positioned at the top of a ramp.](images/ball-start.png)
 
 --- /task ---
 
@@ -44,19 +41,19 @@ Position the ball at the top of your track.
 
 --- task ---
 
-With the 'Ball' GameObject selected, choose 'Add Component' in the inspector window and enter the text 'RigidBody'. Select the 'RigidBody' component. This adds a gravity effect to your ball. 
+Add a Rigidbody to your ball. 
 
-![A screenshot showing the RigidBody component selected in the inspector window.](images/rigid-body.png)
+[[[unity-rigidbody]]]
 
 --- /task ---
 
 --- task ---
 
-Right-click on the 'MainCamera' object in the 'Hierarchy'.
+Click on the **View tool** in the Scene view (the hand icon) and drag the view until you can see the ball and the track.
 
-Choose 'Align with view'. This will match your Scene view and your Main Camera view. 
+Align the camera to the Scene view.
 
-![A screenshot showing the 'Align with view' option highlighted in the GameObject menu.](images/align-with-view.png)
+[[[unity-align-with-view]]]
 
 --- /task ---
 
@@ -72,57 +69,9 @@ Choose 'Align with view'. This will match your Scene view and your Main Camera v
 
 --- task ---
 
-In the Project window select 'Materials' and then 'PhysicsMaterials'. Right-click in the window, click 'Create' and select **Physic Material**. 
+Create a bouncy material.
 
-![A screenshot showing menu with 'Create' and 'Physic Material' highlighted.](images/create-physic-material.png)
-
---- /task ---
-
---- task ---
-
-Give your physics material a sensible name. 
-
-Adjust the properties to create the effect you want:
-
-+ **Dynamic friction ** - A value from 0-1. Friction when moving. 0 is like ice. 1 is hard to slow down.
-+ **Static friction ** - A value from 0-1. Friction from still on a surface. 0 is like ice. 1 is hard to slow down.
-+ **Bounce ** - A value from 0-1. 0 will not bounce. 1 will keep bouncing without losing energy.
-
-Drag the material onto one or more GameObjects. 
-
---- /task ---
-
-Here are some examples that you can use to get started.
-
-<mark>Add bounce and smooth</mark>
-
---- task ---
-
-Name the material 'Bounce'.
-
-![A screenshot showing the newly created 'Bounce' physics material.](images/bounce-material.png)
-
---- /task ---
-
---- task ---
-
-Change Bounciness to `1`.
-
-![A screenshot showing the 'Bounciness' property set to '1'.](images/bounciness-one.png)
-
---- /task ---
-
---- task ---
-
-Select the 'Ball' GameObject and go to the Inspector window.
-
-Find the 'Sphere Collider' properties and click on the small circle in the 'Material' section. 
-
-![A screenshot showing the small circle to the right of 'Material'.](images/add-physics-material.png)
-
-Double-click on your new 'Bounce' physics material.
-
-![A screenshot showing the the 'Bounce' physics material highlighted.](images/bounce.png)
+[[[bouncy-material]]]
 
 --- /task ---
 
@@ -132,6 +81,8 @@ Click **Play** and watch your ball bounce as it lands on the ramp.
 
 ![Animation showing ball dropping and bouncing on the ramp before rolling downwards.](images/ball-bounce.gif)
 
+**Debug:** If your ball bounces too high and keeps bouncing off the track or if your ball moves too slowly you may need to adjust the values in your Physic Materials.
+
 --- /task ---
 
 ### User interaction
@@ -140,75 +91,14 @@ Click **Play** and watch your ball bounce as it lands on the ramp.
 
 **Choose** how you would like your camera to work.
 
---- collapse ---
----
-title: Keep the camera in a fixed position
----
+You could keep the camera in a fixed position:
 
-Click on the **View tool** in the Scene view (the hand icon) and drag the view until you are happy with the view of your track. Right-click on the Main Camera object in the Hierarchy window and select 'Align With View':
+[[[unity-align-with-view]]]
 
---- /collapse ---
-
---- collapse ---
----
-title: Make the camera follow a ball
----
-
-Position your camera so that it is behind the ball.
-
-Go to the Hierarchy window. Right-click on the 'Main Camera' and select **Align With View**. 
-
-Go to the Inspector window for the 'Main Camera' and click on the **Add Component** button. Create a new script called `CameraController`.
-
-Open the `CameraController` script and enter the following code:
-
---- code ---
----
-language: cs
-filename: CameraController.cs
-line_numbers: true
-line_number_start: 1
-line_highlights: 
----
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class CameraController : MonoBehaviour
-{
-  public float sensitivity = 5f;
-  public GameObject ball;
-  private Vector3 prevBallPos;
-
-  void Start()
-   {
-       // Calculate where the camera is in relation to the player (ball)
-       transform.LookAt(ball.transform);
-       prevBallPos = ball.transform.position;
-   }
-
-void LateUpdate()
-   {
-       float mouse = Input.GetAxis("Mouse Y");
-       transform.Rotate(new Vector3(mouse * sensitivity * -1, 0, 0));
-       float look = Input.GetAxis("Mouse X") * sensitivity;
-       transform.RotateAround(ball.transform.position, Vector3.up, look);
-       // Moves the camera by the same amount the ball has moved
-       transform.Translate(ball.transform.position - prevBallPos, Space.World);
-       prevBallPos = ball.transform.position;
-   }
-}
-
---- /code ---
-
-**Save** and return to Unity.
-
-With the 'Main Camera' selected, drag the `Ball` GameObject to the `Ball` variable in the Inspector window inside your `CameraController` script.
-
---- /collapse ---
+Or, drag the Scene view so that you are behind the ball then follow the ball down the track: 
 
 [[[unity-scene-navigation]]]
+[[[unity-camera-follow-ball]]]
 
 --- /task ---
 

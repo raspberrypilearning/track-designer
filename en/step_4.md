@@ -96,8 +96,22 @@ public class Spin : MonoBehaviour
 
 **Choose** physics materials for your obstacles.
 
-pick one
-make one
+--- collapse ---
+---
+title: Use a pre-made physics material
+---
+
+In the project window go to 'Assets -> PhysicsMaterial'.
+
+**Choose** a physics material.
+
+Drag the physics material from the folder and onto the GameObject that you want to add the physics material to.
+
+--- /collapse ---
+
+[[[bouncy-material]]]
+
+[[[add-friction]]]
 
 --- /task ---
 
