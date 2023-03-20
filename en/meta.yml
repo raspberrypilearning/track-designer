@@ -13,7 +13,7 @@ steps:
     completion:
       - engaged
   - title: Interactive objects
-  - title: Goal effects
+  - title: Track and goal effects
     completion:
       - internal
   - title: Quick quiz

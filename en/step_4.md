@@ -2,7 +2,7 @@
 
 In this step, you will add fixed and spinning obstacles for the ball to bounce off.
 
-![Output of step 4.](images/output4.png)
+![Three example outputs for how tracks might look with interactive objects at the end of this step.](images/output4-strip.png)
 
 ### Add obstacles
 
@@ -25,58 +25,13 @@ In this step, you will add fixed and spinning obstacles for the ball to bounce o
 
 **Choose** which obstacles you would like to spin.
 
---- collapse ---
----
-title: Make a GameObject spin
----
+[[[unity-spin-script]]]
 
-In the 'Project' window navigate to the 'Scripts' folder. 
+--- /task ---
 
-Create a new Script called `Spin`.
+--- task ---
 
-Open the new Script and enter the following code:
-
---- code ---
----
-language: cs
-filename: Sin.cs
-line_numbers: true
-line_number_start: 1
-line_highlights:
----
-
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
-
-public class Spin : MonoBehaviour
-{
-    public Vector3 rotation;
-
-    // Start is called before the first frame update
-    void Start()
-    {
-       
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        transform.Rotate(rotation * Time.deltaTime); 
-    }
-}
-
---- /code ---
-
-**Save** the script and return to Unity. 
-
-**Add** the `Spin` script to any GameObject that you would like to spin. 
-
-**Choose** the direction the spin.
-
-+ Change the `X`, `Y` and `Z` values in `Spin` script variables in the Inspector window to make your GameObject spin in the direction that you have chosen. 
-
---- /collapse ---
+**Test** your project. Adjust the spin directions and speeds until you are happy with the effects. 
 
 --- /task ---
 
@@ -94,24 +49,19 @@ public class Spin : MonoBehaviour
 
 --- task ---
 
-**Choose** physics materials for your obstacles.
-
---- collapse ---
----
-title: Use a pre-made physics material
----
-
-In the project window go to 'Assets -> PhysicsMaterial'.
-
-**Choose** a physics material.
-
-Drag the physics material from the folder and onto the GameObject that you want to add the physics material to.
-
---- /collapse ---
+**Choose** add physic materials to your obstacles.
 
 [[[bouncy-material]]]
-
 [[[add-friction]]]
 
 --- /task ---
+
+--- task ---
+
+**Test** your project. See if the physics materials that you have added, create the desired effect.
+
+![Three example outputs for how tracks might look with interactive objects at the end of this step.](images/output4-strip.png)
+
+--- /task ---
+
 

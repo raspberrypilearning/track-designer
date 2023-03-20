@@ -1,21 +1,18 @@
 ## Upgrade your project
 
-Change the style of your game or add more. 
+Upgrade your project to make it even more enjoyable to watch or play. 
 
 You could:
-+ Use `Save As` to create a copy of your scene and create another pixel art image.
-+ Choose or create different materials to create your pixel art.
-+ Add sound effects for each tile colour when it is revealed. 
-+ Add a spotlight that follows the player
-
-You could add another player that uses different keys. The second player could:
-+ Help reveal the pixel art
-+ Change the revealed tiles back to their start material to slow the reveal
-+ Move faster or slower than the first player
++ Extend the track with more ramp parts
++ Experiment with different camera angles or keyboard controls
++ Add more sound or graphics effects
++ Add more obstacles
++ Experiment with physics materials to create different slide or bounce effects
 
 <iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pixel_art" frameborder="0"></iframe>
 
-<mark>Add a two player upgrade with sounds</mark>
+
+<mark>Add an extended example</mark>
 
 <mark>Update the completed project</mark>
 

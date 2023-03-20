@@ -1,6 +1,6 @@
 ## You will make
 
-In this project you will design your own track to roll a ball down. You will also add in your own interactive objects to the track. 
+In this project you will design your own track to roll a ball down. You will also add in your own interactive objects to the track. You will choose whether the user will control or watch the ball. 
 
 You will:
 
@@ -41,8 +41,8 @@ Explore these example projects to get more ideas:
 [A downhill run with spinning cubes and rectangles leading down to a covered tunnel with rainbow coloured tracks. The ball changes colour to match the track it is in. the end is a plane that changes colour to match the ball.](https://libxx1.github.io/track){:target='_blank'}.
 ![A tunnel with rainbow coloured tracks leading down to a pink plane. Up the hill in the distance are obstacles made from cubes and capsules.](images/track.png){:width="400px"}
 
-[ADD DESCRIPTION](https://libxx1.github.io/bee){:target='_blank'}.
-![ADD DESCRIPTION.](images/bee.png){:width="400px"}
+[A twisty track with rotating obstacles. Ramps and the goal change colour when the ball rolls over the,](https://twistytrack.tracygardner1.repl.co/){:target='_blank'}.
+![A twisty track with rotating obstacles and an orange ball rolling down it.](images/twisty-track-static.png){:width="400px"}
 
 <mark>MARC - add another example below</mark>
 
