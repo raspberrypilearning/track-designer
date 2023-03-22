@@ -5,39 +5,31 @@
 legend: Question 2 of 3
 ---
 
-In what way could the 'Scene view' be different to the 'Game view' when the scene is in play mode?
+A young creator has created a 'CameraController' script that will follow a ball down a track. They keep getting the error `variable cameraTransform not been assigned`. What should they do to fix this error?
 
 --- choices ---
 
-- ( ) Object materials 
+- ( ) Add a Camera GameObject to your scene. 
 
   --- feedback ---
 
-   Close! It's true that objects may have a different material in the Scene view that are then changed by code when the game is playing. This is not the only difference though. 
+   Not quite, your project should already have a main camera that will be used with your project. 
 
   --- /feedback ---
 
-- ( ) View perspective 
+- (x) Drag the 'Main Camera' GameObject to the 'Camera Transform' property for the script.  
 
   --- feedback ---
 
-  Close! It's true that the Scene view perspective can be changed manually or via the Scene gizmo. The player will see the perspective of the camera, which could be different to the scene view. This is not the only difference though.
+  Correct! They have written their script correctly but they haven't told Unity which camera to control. 
 
   --- /feedback ---
 
-  - ( ) Object visibility
+  - ( ) Delete the `cameraTransform` variable from the `CameraController` script.
 
   --- feedback ---
 
-  Close! It's true that objects may be visible/invisible in the Scene view but be hidden/shown by code when the game is playing. This is not the only difference though.
-
-  --- /feedback ---
-
-- (x) All of the above...and more!
-
-  --- feedback ---
-
-  Correct. These are all ways that the 'Scene' view could be different from the 'Game' view.
+ Not quite. The script will need the `cameraTransform` variable to be set so it can move the camera. 
 
   --- /feedback ---
 

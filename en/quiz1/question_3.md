@@ -5,23 +5,40 @@
 legend: Question 3 of 3
 ---
 
-A CoderDojo creator has placed a new object into their scene. It is positioned really high up and too close to the camera. What is the quickest way to move the GameObject to the centre of the scene?
+You want to create a physics material that will make a GameObject very bouncy. Which value will create the highest level of bounciness?
 
 --- choices ---
 
-- (x) Reset the transform
+- ( ) 
+
+`0`
 
   --- feedback ---
 
-Correct! In the 'Inspector' window, you can choose to 'Reset' the transform. This will set the 'Position' and 'Rotation' values to 0 and will move your GameObject to the centre.
+Try again. `0` would not provide any bouncy effects for your GameObject.
 
   --- /feedback ---
 
-- ( ) Use the 'Position' gizmo (the X, Y, Z handles) to manually move the GameObject to the centre.
+- ( )
+
+`0.5`
 
   --- feedback ---
 
-This would eventually move your GameObject to the centre but it is not the quickest way to do it.
+  
+Not quite. A bounciness of 0.5 will make a ball quite bouncy, but it will gradually stop bouncing. 
+
+
+  --- /feedback ---
+
+
+- (x) 
+
+`1`
+
+  --- feedback ---
+
+Correct! A bounciness value of 1 will make the ball very bouncy. It will keep bouncing without losing energy. 
 
   --- /feedback ---
 

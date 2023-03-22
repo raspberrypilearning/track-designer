@@ -2,9 +2,7 @@
 
 <mark>Update when the next project is available.</mark>
 
-If you are following the [More Unity](https://projects.raspberrypi.org/en/raspberrypi/more-unity) path, you can move on to the [x](https://projects.raspberrypi.org/en/projects/x) project. In this project, you will x.
-
-![x.](images/x.png)
+<mark>Check with Unity if they want this path to link to their courses as the last project in the first path does. </mark>
 
 If you want to have more fun exploring Unity, then you could try out any of [these projects](https://projects.raspberrypi.org/en/projects?software%5B%5D=unity).
 

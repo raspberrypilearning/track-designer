@@ -14,30 +14,29 @@ Have fun!
 legend: Question 1 of 3
 ---
 
-In Unity, you must put all scripts in a folder called Script or your project will not work. 
+You used a `Spin` script to make obstacles spin. A creator has set their 'X' rotation value to `10` but the object is spinning very slowly. What should they do to make it spin faster?
 
 --- choices ---
 
-- ( )
-
-True
-
-  --- feedback ---
-
-That's not the right answer, but it is very important to organise your assets including scripts. 
-
-  --- /feedback ---
-
 - (x)
 
-False 
+Use a higher number. 
 
   --- feedback ---
 
-That's correct. Your Unity project will still work if your scripts are in a different folder but it's good idea to organise your scripts so that you know where to find the. 
+Correct! A higher number will make the GameObject spin faster. 
 
   --- /feedback ---
 
+- ( )
+
+Use a lower number.
+
+  --- feedback ---
+
+Try again. A lower number will make the GameObject spin more slowly.
+
+  --- /feedback ---
 
 --- /choices ---
 
