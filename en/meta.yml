@@ -1,0 +1,29 @@
+---
+title: Track designer
+hero_image: images/banner.png
+description: Design you own interactive track for a ball to roll down.
+version: 4
+listed: false
+copyedit: false
+last_tested: "2021-03-26"
+steps:
+  - title: You will make
+  - title: Design the track
+  - title: Add a ball
+    completion:
+      - engaged
+  - title: Interactive objects
+  - title: Track and goal effects
+    completion:
+      - internal
+  - title: Quick quiz
+    knowledge_quiz:
+      path: quiz1
+      version: 1
+      questions: 3
+      passing_score: 3
+  - title: Upgrade your project
+  - title: Share
+  - title: What next?
+    completion:
+      - external
