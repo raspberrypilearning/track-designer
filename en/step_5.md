@@ -2,7 +2,7 @@
 
 In this step, you will add effects to your track and your goal. 
 
-![Output of step 5.](images/output5.png)
+![A collection of images showing example outputs for this step.](images/output-string.png)
 
 ### Add effects to your track
 
@@ -18,7 +18,6 @@ In this step, you will add effects to your track and your goal.
 
 --- /task ---
 
-
 ### Add effects to your goal
 
 --- task ---
@@ -32,8 +31,88 @@ You could:
 + Trigger a particle effect when the ball reaches the goal
 
 [[[unity-goal-material]]]
-[[[unity-trigger-sound]]]
-[[[unity-particle-system]]]
+[[[unity-play-sound-collision]]]
+
+--- collapse ---
+---
+title: Adding a fireworks particle effect
+---
+
+Navigate to the 'Fireworks' particle effect in 'Assets -> Particle systems'.
+
+Drag the 'Fireworks' effect onto the 'Goal' in the 'Hierarchy' window. 
+
+The Fireworks will begin to animate.
+
+To adjust their size and the speed, change the settings in the 'Inspector' window.
+
+You could:
++ Adjust the 'Start Speed', 'Start Size' and 'Max Particles'
++ Open the 'Shape' collapse and reduce the X value to make it smaller
+
+Next, add a 'FinishEffects' script to the 'Goal'
+
+Enter the following code:
+
+--- code ---
+---
+language: cs
+filename: FinishEffects.cs
+line_numbers: true
+line_number_start: 1
+line_highlights: 
+---
+
+using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
+
+public class FinishEffects : MonoBehaviour
+{
+   ParticleSystem completeParticleSystem;
+
+   void Start()
+   {
+       completeParticleSystem = GetComponentInChildren<ParticleSystem>();
+   }
+
+
+   void OnCollisionEnter(Collision other)
+   {
+       if (other.gameObject.tag == "Player")
+       {
+           completeParticleSystem.GetComponent<ParticleSystemRenderer>().material = other.gameObject.GetComponent<Renderer>().material;
+           completeParticleSystem.Play();
+       }
+   }
+}
+
+--- /code ---
+
+--- /collapse ---
+
 [[[unity-ball-material]]]
+
+--- /task ---
+
+--- task ---
+
+**Test** and debug your goal and track effects. 
+
+--- collapse ---
+---
+title: The sound isn't playing when my ball reaches the goal
+---
+
++ Check that you have added the `PlaySound` script to the `Goal` parent GameObject and not one of the parts within in
++ Check that your `Goal` GameObject has a 'BoxCollider'
++ Check that your `Goal` BoxCollider is wide enough to trigger an effect
++ Check that you have added an 'AudioSource' component to the `Goal` GameObject
++ Check that the 'AudioSource' component has a sound attached
+
+--- /collapse ---
+
+![The ball rolls down the track and fireworks appear when it reaches the goal](images/track-effects.gif)
 
 --- /task ---

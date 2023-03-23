@@ -9,10 +9,9 @@ You could:
 + Add more obstacles
 + Experiment with physics materials to create different slide or bounce effects
 
-<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pixel_art" frameborder="0"></iframe>
-
-
 <mark>Add an extended example</mark>
+
+<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pixel_art" frameborder="0"></iframe>
 
 <mark>Update the completed project</mark>
 
