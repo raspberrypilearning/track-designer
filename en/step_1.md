@@ -8,7 +8,7 @@ You will:
 + Decide whether the player will control the ball and how the camera will work
 + Configure physics materials to control how objects interact
 
-![A strip of example project images.](images/example-projects.png)
+![A strip of example project images.](images/final-strip.png)
 
 ### You will need
 

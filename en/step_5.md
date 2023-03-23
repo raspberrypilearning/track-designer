@@ -2,7 +2,7 @@
 
 In this step, you will add effects to your track and your goal. 
 
-![Output of step 5.](images/output5.png)
+![A collection of images showing example outputs for this step.](images/output-string.png)
 
 ### Add effects to your track
 
