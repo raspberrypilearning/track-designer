@@ -22,9 +22,9 @@ You will also need to download the [Unity starter package](https://rpf.io/p/en/r
 
 ### Play 🎡
 
-Control the camera by clicking the left mouse button and moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. 
+Control the camera by moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. 
 
-<iframe allowtransparency="true" width="710" height="450" src="https://beckyfranks.github.io/BecsPixelArtReveal/" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="450" src="https://beckyfranks.github.io/TrackDesigner/" frameborder="0"></iframe>
 
 --- /no-print ---
 
@@ -38,10 +38,10 @@ You are going to make some design decisions to build own track.
 
 Explore these example projects to get more ideas:
 
-[A downhill run with spinning cubes and rectangles leading down to a covered tunnel with rainbow coloured tracks. The ball changes colour to match the track it is in. the end is a plane that changes colour to match the ball.](https://libxx1.github.io/track){:target='_blank'}.
-![A tunnel with rainbow coloured tracks leading down to a pink plane. Up the hill in the distance are obstacles made from cubes and capsules.](images/track.png){:width="400px"}
+[Try a track with colour switching ball](https://libxx1.github.io/track){:target='_blank'}.
+![A tunnel with rainbow coloured tracks leading down to a pink plane. Up the hill in the distance are obstacles made from cubes and capsules.](images/spinning-things.png){:width="400px"}
 
-[A twisty track with rotating obstacles. Ramps and the goal change colour when the ball rolls over the,](https://twistytrack.tracygardner1.repl.co/){:target='_blank'}.
+[Try a twisty track with rotating obstacles.](https://twistytrack.tracygardner1.repl.co/){:target='_blank'}.
 ![A twisty track with rotating obstacles and an orange ball rolling down it.](images/twisty-track-static.png){:width="400px"}
 
 <mark>MARC - add another example below</mark>
