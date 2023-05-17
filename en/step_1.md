@@ -1,11 +1,12 @@
 ## You will make
 
-In this project you will design your own track to roll a ball down. You will also add in your own interactive objects to the track. You will choose whether the user will control or watch the ball. 
+In this project you will design your own track to roll a ball down using **tilt**. You will also add in your own interactive objects to the track. You will choose whether the camera follows the ball or stays in the same place. 
 
 You will:
 
 + Design a track by arranging GameObjects in the Scene view and adding spinning obstacles
-+ Decide whether the player will control the ball and how the camera will work
++ Choose Materials for the ball, the track and all the obstacles
++ Decide whether the camera will follow the ball or stay still
 + Configure physics materials to control how objects interact
 
 ![A strip of example project images.](images/final-strip.png)
@@ -16,7 +17,7 @@ This project requires the Unity Editor, which can be installed from the Unity Hu
 
 You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/unity-guide){:target="_blank"} to install Unity Hub and the Unity Editor for your operating system.
 
-You will also need to download the [Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
+You will also need to download the [More Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
 
 --- no-print ---
 
@@ -40,7 +41,6 @@ Explore these example projects to get more ideas:
 
 [Try a track with colour switching ball](https://libxx1.github.io/track){:target='_blank'}.
 ![A tunnel with rainbow coloured tracks leading down to a pink plane. Up the hill in the distance are obstacles made from cubes and capsules.](images/spinning-things.png){:width="400px"}
-
 [Try a twisty track with rotating obstacles.](https://twistytrack.tracygardner1.repl.co/){:target='_blank'}.
 ![A twisty track with rotating obstacles and an orange ball rolling down it.](images/twisty-track-static.png){:width="400px"}
 

@@ -4,7 +4,7 @@ Upgrade your project to make it even more enjoyable to watch or play.
 
 You could:
 + Extend the track with more ramp parts
-+ Experiment with different camera angles or keyboard controls
++ Experiment with different camera angles
 + Add more sound or graphics effects
 + Add more obstacles
 + Experiment with physics materials to create different slide or bounce effects

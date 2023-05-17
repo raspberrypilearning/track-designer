@@ -10,6 +10,8 @@ In this step, you will add fixed and spinning obstacles for the ball to bounce o
 
 **Add** obstacles to your track.
 
+**Tip:** Make sure any obstacles you add are **inside** of the 'Level' parent object. Otherwsie they won't tilt with the level. 
+
 [[[unity-3D-coordinates]]]
 [[[unity-transform-tools]]]
 [[[unity-model-gameobject]]]

@@ -113,6 +113,6 @@ title: The sound isn't playing when my ball reaches the goal
 
 --- /collapse ---
 
-![The ball rolls down the track and fireworks appear when it reaches the goal](images/track-effects.gif)
+![The ball rolls down the track and fireworks appear when it reaches the goal](images/finish-effects.gif)
 
 --- /task ---
