@@ -36,7 +36,7 @@ Download and unzip the [More Unity starter package](https://rpf.io/p/en/rainbow-
 
 The Unity starter package you downloaded for this More Unity path contains a number of **Assets** for you to use in your project.
 
-To import them into your new project, click on the **Assets menu** and select **Import package > Custom Package…** then navigate to the downloaded Unity starter package.
+To import them into your new project, click on the **Assets menu** and select **Import package > Custom Package…** then navigate to the downloaded More Unity starter package.
 
 --- /collapse ---
 
