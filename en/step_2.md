@@ -60,7 +60,7 @@ Drag the new Scene into the 'Scenes' folder to organise your files.
 
 --- task ---
 
-Right-click on your scene in the Hierarchy window and choose **GameObject > 3D Object > Plane**.
+Right-click in the Hierarchy window and choose **GameObject > 3D Object > Plane**.
 
 This will create a ground for your track to sit on.
 
@@ -75,7 +75,7 @@ X=`0`, Y=`0`, Z=`0`.
 
 **Choose** a size for your plane by changing the 'X' and 'Z' scale values.
 
-Our example changes both the 'X' the 'Z' values to `4`:
+Our example changed the 'X' and 'Z' values to `3`:
 
 ![The Transform pane in the Inspector window with Scale properties X=1, Y=1, and Z=2.](images/plane-transform.png)
 
@@ -90,12 +90,11 @@ Your track needs:
 
 It is practical to create your track from the **last** part (the goal) to the **first** part (the start). 
 
-**Tip**: Make sure that you design your track so that the ball can roll down towards the goal.
+**Tip:** This project will be controlled by **tilting** the track to roll the ball, try to avoid too many twists and turns or it might be too difficult for your players. 
 
 --- task ---
 
 **Choose** your goal and drag the part into your scene. You could:
-+ Use the plane as the goal
 + Use the existing 'goal' part from the 'Assets -> Parts' folder
 + Create your own goal from 3D objects
 
@@ -125,9 +124,7 @@ Set the transform position, rotation and scale of your goal until you are satisf
 
 Each time change the transform position, rotation, and scale if needed and make sure the track position lines up with the previous part. 
 
-![A final piece of track is positioned next to the goal.](images/final-part.png)
-
-**Tip:** This project will be controlled by **tilting** the track to roll the ball, try to avoid too many twists and turns or it might be too difficult for your players. 
+![A final piece of track is positioned next to the goal.](images/first-part.png)
 
 **Tip**: Look at your parts from lots of different angles to make sure that they are lined up correctly.
 

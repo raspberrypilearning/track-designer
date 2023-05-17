@@ -47,6 +47,8 @@ Add a Rigidbody to your ball.
 
 --- /task ---
 
+### Set up the camera
+
 --- task ---
 
 You will be tilting the track to roll the ball so a view point from the top is best. 
