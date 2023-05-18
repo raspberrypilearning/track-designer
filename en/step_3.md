@@ -19,7 +19,7 @@ Add a material for your ball.
 [[[unity-material-with-texture]]]
 [[[unity-glass-material]]]
 
-![A small ball with the purple marble effect material added to it.](images/purple-marble.png)
+![A small ball with the purple marble effect material added to it.](images/bouncy-ball.png)
 
 --- /task ---
 
