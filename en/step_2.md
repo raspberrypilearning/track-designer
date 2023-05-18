@@ -8,7 +8,7 @@ In this step, you will design your track using the parts available in the parts 
 
 --- task ---
 
-Launch the Unity Hub and open the project you created for [Pixel-art reveal.](https://projects.raspberrypi.org/en/projects/rainbow-run/0){:target='_blank'}.
+Launch the Unity Hub and open the project you used for [Pixel-art reveal.](https://projects.raspberrypi.org/en/projects/rainbow-run/0){:target='_blank'}.
 
 --- collapse ---
 
@@ -53,6 +53,8 @@ In the pop-up window, name your Scene `Track designer`:
 A new file will appear in the Assets folder in the Project window.
 
 Drag the new Scene into the 'Scenes' folder to organise your files.
+
+Open the new Scene, by double clicking on it, to start making your track!
 
 --- /task ---
 
@@ -132,8 +134,7 @@ Each time change the transform position, rotation, and scale if needed and make 
 
 [[[unity-scene-navigation]]]
 [[[unity-vertex-snapping]]]
-
-<mark>ADD IN A SCENE GIZMO INGREDIENT!!!</mark>
+[[[unity-scene-gizmo]]]
 
 ![All of the parts have now been added to the scene. There is a curved ramp that leads to two spirals and then another two curved ramps.](images/all-parts.png)
 

@@ -17,15 +17,13 @@ This project requires the Unity Editor, which can be installed from the Unity Hu
 
 You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/unity-guide){:target="_blank"} to install Unity Hub and the Unity Editor for your operating system.
 
-You will also need to download the [More Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} of assets before starting.
-
 --- no-print ---
 
 ### Play 🎡
 
-Control the camera by moving the mouse. Control the movement of the ball using <kbd>WASD</kbd> (or <kbd>ZQSD</kbd>) or the arrow keys. Use <kbd>Space</kbd> to jump. 
+Tilt the world using the <kbd>WASD</kbd> to roll the marble down the track.
 
-<iframe allowtransparency="true" width="710" height="450" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner/" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner/" frameborder="0"></iframe>
 
 --- /no-print ---
 
