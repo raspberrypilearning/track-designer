@@ -21,9 +21,9 @@ You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/un
 
 ### Play 🎡
 
-Tilt the world using the <kbd>WASD</kbd> to roll the marble down the track.
+Tilt the world using the <kbd>WASD</kbd> keys to roll the marble down the track.
 
-<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner/" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner/" scrolling = "no" frameborder="0"></iframe>
 
 --- /no-print ---
 
