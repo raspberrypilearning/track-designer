@@ -37,8 +37,9 @@ You are going to make some design decisions to build own track.
 
 Explore these example projects to get more ideas:
 
-[Try a track with colour switching ball](https://libxx1.github.io/track){:target='_blank'}.
+[Try a track with colour switching ball](https://raspberrypilearning.github.io/unity-webgl/track){:target='_blank'}.
 ![A tunnel with rainbow coloured tracks leading down to a pink plane. Up the hill in the distance are obstacles made from cubes and capsules.](images/spinning-things.png){:width="400px"}
+
 [Try a twisty track with rotating obstacles.](https://twistytrack.tracygardner1.repl.co/){:target='_blank'}.
 ![A twisty track with rotating obstacles and an orange ball rolling down it.](images/twisty-track-static.png){:width="400px"}
 
