@@ -28,7 +28,7 @@ Tilt the world using the <kbd>WASD</kbd> to roll the marble down the track.
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/static-pink.png)
+![Complete project](images/final-project.png)
 --- /print-only ---
 
 ### Get ideas 💭
