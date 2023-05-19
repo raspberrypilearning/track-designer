@@ -45,11 +45,3 @@ Explore these example projects to get more ideas:
 
 [Try a track with ramps that move](https://raspberrypilearning.github.io/unity-webgl/TrackDesignerMoving/){:target='_blank'}.
 ![A track with black and white down-ramps that step down, each perpendicular to the next, leading to a spiral ramp and, finally, a green goal. The tracks are moving backwards and forwards on the x and z planes.](images/moving-tracks.gif){:width="400px"}
-
-
-
-
-
-
-
-

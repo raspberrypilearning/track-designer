@@ -179,6 +179,3 @@ Create a sky box for your scene.
 [[[unity-skybox]]]
 
 --- /task ---
-
-
-

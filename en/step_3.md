@@ -169,7 +169,7 @@ With the 'Level' GameObject selected add the `TiltFloor` script component.
 --- collapse ---
 
 ---
-title: I dont have a TiltWorld script.
+title: I don't have a TiltWorld script.
 ---
 
 With 'Level' selected, add a new script component called `TiltFloor`. 
@@ -349,6 +349,6 @@ Select the 'Ball' GameObject and add the 'Player' tag.
 
 **Test:** Play your game and check your reset script is working and you can carry on playing afterwards. 
 
-![GIF showing the Ball falling off the track and then being reset to the top again](images/reset-demo.gif)
+![Animation showing the Ball falling off the track and then being reset to the top again](images/reset-demo.gif)
 
 --- /task ---

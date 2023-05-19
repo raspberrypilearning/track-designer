@@ -9,7 +9,7 @@ You could:
 + Add more obstacles
 + Experiment with physics materials to create different slide or bounce effects
 
-<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesignerUpgraded/" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesignerUpgraded/" scrolling = "no" frameborder="0"></iframe>
 
 --- collapse ---
 
@@ -17,7 +17,7 @@ You could:
 title: Completed project
 ---
 
-You can view the [completed project here](https://rpf.io/p/en/track-designer-get){:target="_blank"}.
+You can download the [completed project here](https://rpf.io/p/en/track-designer-get){:target="_blank"}.
 
 --- /collapse ---
 
