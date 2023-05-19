@@ -51,10 +51,14 @@ Add a Rigidbody to your ball.
 
 --- task ---
 
-You will be tilting the track to roll the ball so a view point from the top is best. 
+You will be tilting the track to roll the ball so a view point from the top is best.
+
+Switch your scene into "Top" view using the **scene gizmo** - use this as your starting point. 
 
 **Choose:** 
 If you want the camera to follow the Ball your view should be zoomed in with the Ball in the center of the screen. On the other hand, if the camera is staying in one place you should make sure the whole track is visible and in the center of the screen. 
+
+**Tip**: Only rotate the camera on the **X** axis, as the tilt script is designed to use this orientation.
 
 In our example the camera will follow the Ball and this is the view we will be using:
 
@@ -100,7 +104,7 @@ If you want your camera to follow the Ball, select the 'Main Camera' GameObject 
 title: I don't have a CameraFollow script
 ---
 
-With the Ball selected, add a new script component called `CameraFollow`. 
+With 'Main Camera' selected, add a new script component called `CameraFollow`. 
 
 Drag the new script file from your Assets into the 'Scripts' folder to organise your files. 
 
@@ -187,7 +191,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class TitltingFloorLerp : MonoBehaviour
+public class TiltFloor : MonoBehaviour
 {
     public float maxTilt;
     public float turnSpeed;
@@ -343,7 +347,7 @@ Select the 'Ball' GameObject and add the 'Player' tag.
 
 --- task ---
 
-**Test:** Your reset script to make sure it resets the player. 
+**Test:** Play your game and check your reset script is working and you can carry on playing afterwards. 
 
 ![GIF showing the Ball falling off the track and then being reset to the top again](images/reset-demo.gif)
 
