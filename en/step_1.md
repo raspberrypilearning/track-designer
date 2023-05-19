@@ -42,10 +42,8 @@ Explore these example projects to get more ideas:
 [Try a twisty track with rotating obstacles.](https://twistytrack.tracygardner1.repl.co/){:target='_blank'}.
 ![A twisty track with rotating obstacles and an orange ball rolling down it.](images/twisty-track-static.png){:width="400px"}
 
-<mark>MARC - add another example below</mark>
-
-[ADD DESCRIPTION](https://libxx1.github.io/bee){:target='_blank'}.
-![ADD DESCRIPTION.](images/bee.png){:width="400px"}
+[Try a track with ramps that move](https://raspberrypilearning.github.io/unity-webgl/TrackDesignerMoving/){:target='_blank'}.
+![A track with black and white down-ramps that step down, each perpendicular to the next, leading to a spiral ramp and, finally, a green goal. The tracks are moving backwards and forwards on the x and z planes.](images/moving-tracks.gif){:width="400px"}
 
 
 
