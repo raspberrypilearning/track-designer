@@ -9,11 +9,7 @@ You could:
 + Add more obstacles
 + Experiment with physics materials to create different slide or bounce effects
 
-<mark>Add an extended example</mark>
-
-<iframe allowtransparency="true" width="710" height="450" src="https://libxx1.github.io/pixel_art" frameborder="0"></iframe>
-
-<mark>Update the completed project</mark>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesignerUpgraded/" frameborder="0"></iframe>
 
 --- collapse ---
 
@@ -21,7 +17,7 @@ You could:
 title: Completed project
 ---
 
-You can view the [completed project here](https://scratch.mit.edu/projects/485673032/){:target="_blank"}.
+You can view the [completed project here](https://rpf.io/p/en/track-designer-get){:target="_blank"}.
 
 --- /collapse ---
 
