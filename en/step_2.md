@@ -5,7 +5,7 @@ In this step, you will design your track using the parts available in the parts 
 ![A strip of examples showing different options for how a track could be designed. The first is a track with spirals, curved ramps and is coloured in pink and black, the second uses cube GameObjects with a hidden rainbow path, the third uses several spirals on top of each other.](images/output2-strip.png)
 
 <p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
-Some popular <span style="color: #0faeb0">**rolling ball games**</span> made with Unity include <span style="color: #0faeb0">**Super Monkey Ball Banana Mania**</span>, <span style="color: #0faeb0">**Katamari Damacy REROLL**</span>, <span style="color: #0faeb0">**Hop**</span> and <span style="color: #0faeb0">**Rush**</span>. In some rolling ball games and apps you control the ball and in others you tilt the floor to move the ball. Have you played any games with a rolling ball or marble?
+Some popular <span style="color: #0faeb0">**rolling ball games**</span> made with Unity include <span style="color: #0faeb0">**Super Monkey Ball Banana Mania**</span>, <span style="color: #0faeb0">**Katamari Damacy REROLL**</span>, <span style="color: #0faeb0">**Hop**</span> and <span style="color: #0faeb0">**Rush**</span>. In some rolling ball games and apps you control the ball directly and in others you tilt the floor to move the ball. Have you played any games with a rolling ball or marble?
 </p>
 
 ### Open your project
