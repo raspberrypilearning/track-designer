@@ -74,6 +74,10 @@ Align the camera to the Scene view.
 
 ### Apply physics material
 
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Marble run games are not just about fun; they also provide an excellent opportunity to learn about physics. Players can observe concepts like gravity, momentum, and kinetic energy in action as marbles roll, twist, and turn through the tracks.
+</p>
+
 --- task ---
 
 Add a physics material to the ball.
