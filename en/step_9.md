@@ -1,6 +1,6 @@
 ## What next?
 
-If you are following the [More Unity](https://projects.raspberrypi.org/en/raspberrypi/more-unity) path, you can move on to the [Balls!](https://projects.raspberrypi.org/en/projects/balls/) project. In this project, you will take everything you have learned in this path so far and put it together to create a rolling ball game or art piece all your very own.
+If you are following the [More Unity](https://projects.raspberrypi.org/en/raspberrypi/more-unity) path, you can move on to the [Marble Mayhem!](https://projects.raspberrypi.org/en/projects/marble-mayhem) project. In this project, you will take everything you have learned in this path so far and put it together to create a rolling ball game or art piece all your very own.
 
 ![x.](images/x.png)
 
