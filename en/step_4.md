@@ -10,6 +10,8 @@ In this step, you will add fixed and spinning obstacles for the ball to bounce o
 
 **Add** obstacles to your track.
 
+**Tip:** Make sure any obstacles you add are **inside** the 'Level' parent object. Otherwise they won't tilt with the level. 
+
 [[[unity-3D-coordinates]]]
 [[[unity-transform-tools]]]
 [[[unity-model-gameobject]]]
@@ -49,7 +51,7 @@ In this step, you will add fixed and spinning obstacles for the ball to bounce o
 
 --- task ---
 
-**Choose** add physic materials to your obstacles.
+**Choose** physic materials to add to your obstacles.
 
 [[[bouncy-material]]]
 [[[add-friction]]]
@@ -58,7 +60,7 @@ In this step, you will add fixed and spinning obstacles for the ball to bounce o
 
 --- task ---
 
-**Test** your project. See if the physics materials that you have added, create the desired effect.
+**Test** your project. See if the physics materials that you have added create the desired effect.
 
 ![Three example outputs for how tracks might look with interactive objects at the end of this step.](images/output4-strip.png)
 

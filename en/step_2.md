@@ -4,11 +4,23 @@ In this step, you will design your track using the parts available in the parts 
 
 ![A strip of examples showing different options for how a track could be designed. The first is a track with spirals, curved ramps and is coloured in pink and black, the second uses cube GameObjects with a hidden rainbow path, the third uses several spirals on top of each other.](images/output2-strip.png)
 
-### Create a project with the starter package
+<p style="border-left: solid; border-width:10px; border-color: #0faeb0; background-color: aliceblue; padding: 10px;">
+Some popular <span style="color: #0faeb0">**rolling ball games**</span> made with Unity include <span style="color: #0faeb0">**Super Monkey Ball Banana Mania**</span>, <span style="color: #0faeb0">**Katamari Damacy REROLL**</span>, <span style="color: #0faeb0">**Hop**</span> and <span style="color: #0faeb0">**Rush**</span>. In some rolling ball games and apps you control the ball directly and in others you tilt the floor to move the ball. Have you played any games with a rolling ball or marble?
+</p>
+
+### Open your project
 
 --- task ---
 
-Launch the Unity Hub and click **Projects** then select **New project**:
+Launch the Unity Hub and open the project you used for [Pixel-art reveal.](https://projects.raspberrypi.org/en/projects/rainbow-run/0){:target='_blank'}.
+
+--- collapse ---
+
+---
+title: I haven't got my Pixel-art reveal project
+---
+
+If you are unable to open your project, launch the Unity Hub and click **Projects** then select **New project**:
 
 ![A screenshot of the black bar at the top of the Unity Hub with the 'New Project' button highlighted in red.](images/new-project.png)
 
@@ -16,42 +28,37 @@ From the list choose **All templates** then select **3D Core**:
 
 ![A screenshot of the left pane in the Unity Hub. The 3D core option is highlighted in red.](images/3D-core.png)
 
-Edit the project settings to give your project a name such as 'Pixel art reveal' and save it to a sensible location. Then click **Create project**.
+Edit the project settings to give your project a sensible name and save it to a sensible location. Then click **Create project**:
+
+![A screenshot of the right pane in the Unity Hub. The filename and the 'Create Project' sections are highlighted in red.](images/create-project.png)
 
 Your new project will open in the Unity Editor. It may take some time to load.
 
---- /task ---
+Download and unzip the [More Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} to your computer. 
 
---- task ---
+**Tip:** Choose a sensible location such as your Documents folder.
 
 The Unity starter package you downloaded for this More Unity path contains a number of **Assets** for you to use in your project.
 
-To import them into your new project, click on the **Assets menu** and select **Import package > Custom Package…** then navigate to the downloaded Unity starter package.
-
---- collapse ---
----
-title: I haven't downloaded a Unity starter package
----
-
-Download and unzip the [More Unity starter package](https://rpf.io/p/en/rainbow-run-go){:target="_blank"} to your computer. 
-
-**Tip:** Choose a sensible location such as your Documents folder. 
+To import them into your new project, click on the **Assets menu** and select **Import package > Custom Package…** then navigate to the downloaded More Unity starter package.
 
 --- /collapse ---
-
-[[[unity-importing-a-package]]]
 
 --- /task ---
 
 --- task ---
 
-Right-click on **SampleScene** in the Hierarchy and choose **Save Scene As**: 
+In the **Project** panel right-click and select **Create --> Scene**.
 
-![The scene icon in the Hierarchy window with the right-click menu expanded.](images/right-click-scene.png)
+![The right-click menu with Create and Scene highlighted](images/create-scene.png)
 
-In the pop-up window, name your Scene `Track-Designer` or choose your own name:
+In the pop-up window, name your Scene `Track designer`:
 
 A new file will appear in the Assets folder in the Project window.
+
+Drag the new Scene into the 'Scenes' folder to organise your files.
+
+Open the new Scene, by double clicking on it, to start making your track!
 
 --- /task ---
 
@@ -59,11 +66,14 @@ A new file will appear in the Assets folder in the Project window.
 
 --- task ---
 
-Right-click on your scene in the Hierarchy window and choose **GameObject > 3D Object > Plane**.
+Right-click in the Hierarchy window and choose **GameObject > 3D Object > Plane**.
 
 This will create a ground for your track to sit on.
 
 [[[unity-plane]]]
+
+Make sure the 'Plane' object is at position: 
+X=`0`, Y=`0`, Z=`0`.
 
 --- /task ---
 
@@ -71,7 +81,7 @@ This will create a ground for your track to sit on.
 
 **Choose** a size for your plane by changing the 'X' and 'Z' scale values.
 
-Our example changes the 'Z' value to `2`:
+Our example changed the 'X' and 'Z' values to `3`:
 
 ![The Transform pane in the Inspector window with Scale properties X=1, Y=1, and Z=2.](images/plane-transform.png)
 
@@ -86,12 +96,11 @@ Your track needs:
 
 It is practical to create your track from the **last** part (the goal) to the **first** part (the start). 
 
-**Tip**: Make sure that you design your track so that the ball can roll down towards the goal.
+**Tip:** This project will be controlled by **tilting** the track to roll the ball, try to avoid too many twists and turns or it might be too difficult for your players. 
 
 --- task ---
 
 **Choose** your goal and drag the part into your scene. You could:
-+ Use the plane as the goal
 + Use the existing 'goal' part from the 'Assets -> Parts' folder
 + Create your own goal from 3D objects
 
@@ -121,7 +130,7 @@ Set the transform position, rotation and scale of your goal until you are satisf
 
 Each time change the transform position, rotation, and scale if needed and make sure the track position lines up with the previous part. 
 
-![A final piece of track is positioned next to the goal.](images/final-part.png)
+![A final piece of track is positioned next to the goal.](images/first-part.png)
 
 **Tip**: Look at your parts from lots of different angles to make sure that they are lined up correctly.
 
@@ -129,10 +138,25 @@ Each time change the transform position, rotation, and scale if needed and make 
 
 [[[unity-scene-navigation]]]
 [[[unity-vertex-snapping]]]
-
-ADD IN A SCENE GIZMO INGREDIENT!!!
+[[[unity-scene-gizmo]]]
 
 ![All of the parts have now been added to the scene. There is a curved ramp that leads to two spirals and then another two curved ramps.](images/all-parts.png)
+
+--- /task ---
+
+--- task ---
+
+Once you have finished adding your track pieces, add a 'start' piece. In our example we are using the 'Goal' piece. 
+
+You can make your own out of GameObjects - the important thing is a back to stop the ball rolling off the track right at the start of the game.
+
+Name the GameObject `Start` - so you know it is different than the `Goal` at the end. 
+
+![The Hierarchy window, showing a part named 'Start'](images/start-object.png)
+
+**Tip:** Make sure the path for the Ball is smooth when rolling from the start on to your track.
+
+![The Start of the track, with a smooth path for the Ball to roll over to begin the game.](images/start-path.png)
 
 --- /task ---
 
@@ -148,7 +172,7 @@ In the Project window, go to **Materials > ObstacleMaterials**. Drag a coloured 
 [[[unity-material-with-texture]]]
 [[[unity-glass-material]]]
 
-![The example track is now coloured in using pink and black colours to make a vibrant effect.](images/track-materials.png)
+![The example track is now coloured in using a rainbow of colours to make a vibrant effect.](images/track-materials.png)
 
 --- /task ---
 
@@ -159,6 +183,3 @@ Create a sky box for your scene.
 [[[unity-skybox]]]
 
 --- /task ---
-
-
-
