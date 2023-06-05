@@ -6,13 +6,13 @@ If you are following the [More Unity](https://projects.raspberrypi.org/en/raspbe
 
 Click on the embedded project and use the <kbd>WASD</kbd> keys to roll the ball down the ramp. Try to change the material of every floor tile by rolling around on it.
 
-<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/MarbleMayhemRainbowBounce/" scrolling = "no" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/MarbleMayhemRainbowBounce" scrolling = "no" frameborder="0"></iframe>
 
 --- /no-print ---
 
 --- print-only ---
 
-![An Example project for Marble mayhem. A marble sitting at the top of a ramp in rainbow colours. A platform below contains a tiled floor and a number of obstacles](images/marble-mayhem-preview.png)
+![An example project for Marble Mayhem! A marble sitting at the top of a ramp in rainbow colours. A platform below contains a tiled floor and a number of obstacles](images/marble-mayhem-preview.png)
 
 --- /print-only ---
 

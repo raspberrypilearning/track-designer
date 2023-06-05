@@ -23,7 +23,7 @@ You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/un
 
 Tilt the world using the <kbd>WASD</kbd> keys to roll the marble down the track.
 
-<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner/" scrolling = "no" frameborder="0"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner" scrolling = "no" frameborder="0"></iframe>
 
 --- /no-print ---
 
@@ -40,7 +40,7 @@ Explore these example projects to get more ideas:
 [Try a track with colour switching ball](https://raspberrypilearning.github.io/unity-webgl/track){:target='_blank'}.
 ![A tunnel with rainbow coloured tracks leading down to a pink plane. Up the hill in the distance are obstacles made from cubes and capsules.](images/spinning-things.png){:width="400px"}
 
-[Try a twisty track with rotating obstacles.](https://twistytrack.tracygardner1.repl.co/){:target='_blank'}.
+[Try a twisty track with rotating obstacles.](https://raspberrypilearning.github.io/unity-webgl/twistytrack){:target='_blank'}.
 ![A twisty track with rotating obstacles and an orange ball rolling down it.](images/twisty-track-static.png){:width="400px"}
 
 [Try a track with ramps that move](https://raspberrypilearning.github.io/unity-webgl/TrackDesignerMoving/){:target='_blank'}.
