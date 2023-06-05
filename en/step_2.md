@@ -12,12 +12,12 @@ Some popular <span style="color: #0faeb0">**rolling ball games**</span> made wit
 
 --- task ---
 
-Launch the Unity Hub and open the project you used for [Pixel-art reveal.](https://projects.raspberrypi.org/en/projects/rainbow-run/0){:target='_blank'}.
+Launch the Unity Hub and open the project you used for [Pixel Art Reveal.](https://projects.raspberrypi.org/en/projects/pixel-art-reveal/0){:target='_blank'}.
 
 --- collapse ---
 
 ---
-title: I haven't got my Pixel-art reveal project
+title: I haven't got my Pixel Art Reveal project
 ---
 
 If you are unable to open your project, launch the Unity Hub and click **Projects** then select **New project**:
