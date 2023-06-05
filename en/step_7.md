@@ -17,7 +17,7 @@ You could:
 title: Completed project
 ---
 
-You can download the [completed project here](https://rpf.io/p/en/track-designer-get){:target="_blank"}.
+You can download the basic and extended projects as packages from the [zipped solutions directory](https://rpf.io/p/en/track-designer-get){:target="_blank"}.
 
 --- /collapse ---
 
