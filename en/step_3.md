@@ -173,7 +173,7 @@ With the 'Level' GameObject selected add the `TiltFloor` script component.
 --- collapse ---
 
 ---
-title: I don't have a TiltWorld script.
+title: I don't have a TiltFloor script.
 ---
 
 With 'Level' selected, add a new script component called `TiltFloor`. 
