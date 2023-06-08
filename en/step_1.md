@@ -33,7 +33,7 @@ Tilt the world using the <kbd>WASD</kbd> keys to roll the marble down the track.
 
 ### Get ideas 💭
 
-You are going to make some design decisions to build own track.
+You are going to make some design decisions to build your own track.
 
 Explore these example projects to get more ideas:
 
