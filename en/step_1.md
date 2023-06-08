@@ -40,7 +40,7 @@ Explore these example projects to get more ideas:
 [Try a track with colour switching ball](https://raspberrypilearning.github.io/unity-webgl/track){:target='_blank'}.
 ![A tunnel with rainbow coloured tracks leading down to a pink plane. Up the hill in the distance are obstacles made from cubes and capsules.](images/spinning-things.png){:width="400px"}
 
-[Try a twisty track with rotating obstacles.](https://raspberrypilearning.github.io/unity-webgl/twistytrack){:target='_blank'}.
+[Try a twisty track with rotating obstacles.](https://raspberrypilearning.github.io/unity-webgl/TwistyTrack){:target='_blank'}.
 ![A twisty track with rotating obstacles and an orange ball rolling down it.](images/twisty-track-static.png){:width="400px"}
 
 [Try a track with ramps that move](https://raspberrypilearning.github.io/unity-webgl/TrackDesignerMoving/){:target='_blank'}.
