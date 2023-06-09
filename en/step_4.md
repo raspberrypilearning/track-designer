@@ -51,7 +51,7 @@ In this step, you will add fixed and spinning obstacles for the ball to bounce o
 
 --- task ---
 
-**Choose** physic materials to add to your obstacles.
+**Create** physic materials to add to your obstacles.
 
 [[[bouncy-material]]]
 [[[add-friction]]]
