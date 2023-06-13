@@ -26,7 +26,7 @@ Try again. `0` would not provide any bouncy effects for your GameObject.
   --- feedback ---
 
   
-Not quite. A bounciness of 0.5 will make a ball quite bouncy, but it will gradually stop bouncing. 
+Not quite. A bounciness of `0.5` will make a ball quite bouncy, but it will gradually stop bouncing. 
 
 
   --- /feedback ---
@@ -38,7 +38,7 @@ Not quite. A bounciness of 0.5 will make a ball quite bouncy, but it will gradua
 
   --- feedback ---
 
-Correct! A bounciness value of 1 will make the ball very bouncy. It will keep bouncing without losing energy. 
+Correct! A bounciness value of `1` will make the ball very bouncy. It will keep bouncing without losing energy. 
 
   --- /feedback ---
 

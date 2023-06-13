@@ -38,19 +38,19 @@ You could:
 title: Adding a fireworks particle effect
 ---
 
-Navigate to the 'Fireworks' particle effect in 'Assets -> Particle systems'.
+Navigate to the 'Fireworks' particle effect in **Assets > Particle systems**.
 
-Drag the 'Fireworks' effect onto the 'Goal' in the 'Hierarchy' window. 
+Drag the 'Fireworks' effect onto the 'Goal' in the Hierarchy window. 
 
 The Fireworks will begin to animate.
 
-To adjust their size and the speed, change the settings in the 'Inspector' window.
+To adjust their size and the speed, change the settings in the Inspector window.
 
 You could:
-+ Adjust the 'Start Speed', 'Start Size' and 'Max Particles'
++ Adjust the 'Start Speed', 'Start Size', and 'Max Particles'
 + Open the 'Shape' collapse and reduce the X value to make it smaller
 
-Next, add a 'FinishEffects' script to the 'Goal'
+Next, add a 'FinishEffects' script to the 'Goal'.
 
 Enter the following code:
 
@@ -98,14 +98,14 @@ public class FinishEffects : MonoBehaviour
 
 --- task ---
 
-**Test** and debug your goal and track effects. 
+**Test** and **debug** your goal and track effects. 
 
 --- collapse ---
 ---
 title: The sound isn't playing when my ball reaches the goal
 ---
 
-+ Check that you have added the `PlaySound` script to the `Goal` parent GameObject and not one of the parts within in
++ Check that you have added the `PlaySound` script to the `Goal` parent GameObject and not one of the parts within it
 + Check that your `Goal` GameObject has a 'BoxCollider'
 + Check that your `Goal` BoxCollider is wide enough to trigger an effect
 + Check that you have added an 'AudioSource' component to the `Goal` GameObject
