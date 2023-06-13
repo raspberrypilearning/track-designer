@@ -1,6 +1,6 @@
 ## Roll a ball
 
-In this step you will add a ball and place it at the top of your track. You will also make the world tilt so you can roll the ball down the track. 
+In this step, you will add a ball and place it at the top of your track. You will also make the world tilt so you can roll the ball down the track. 
 
 ![A strip of three examples showing the output of this step.](images/step3-output.png)
 
@@ -8,7 +8,7 @@ In this step you will add a ball and place it at the top of your track. You will
 
 --- task ---
 
-Add a Sphere GameObject and rename it to `Ball`. 
+Add a Sphere GameObject and rename it `Ball`. 
 
 Scale the ball to fit your project (we used  X=`0.25`, Y=`0.25`, Z=`0.25`).
 
@@ -19,7 +19,7 @@ Add a material for your ball.
 [[[unity-material-with-texture]]]
 [[[unity-glass-material]]]
 
-![A small ball with the purple marble effect material added to it.](images/bouncy-ball.png)
+![A small ball with a marble effect material added to it.](images/bouncy-ball.png)
 
 --- /task ---
 
@@ -51,18 +51,18 @@ Add a Rigidbody to your ball.
 
 --- task ---
 
-You will be tilting the track to roll the ball so a view point from the top is best.
+You will be tilting the track to roll the ball so a view from the top is best.
 
-Switch your scene into "Top" view using the **scene gizmo** - use this as your starting point. 
+Switch your scene into 'Top' view using the **Scene gizmo** — use this as your starting point. 
 
 **Choose:** 
-If you want the camera to follow the Ball your view should be zoomed in with the Ball in the center of the screen. On the other hand, if the camera is staying in one place you should make sure the whole track is visible and in the center of the screen. 
+If you want the camera to follow the Ball your view should be zoomed in with the Ball, in the centre of the screen. On the other hand, if the camera is staying in one place, you should make sure the whole track is visible and in the centre of the screen. 
 
 **Tip**: Only rotate the camera on the **X** axis, as the tilt script is designed to use this orientation.
 
-In our example the camera will follow the Ball and this is the view we will be using:
+In our example, the camera will follow the Ball and this is the view we will be using:
 
-![A screenshot of the Scene view of the example game, the camera is close to the ball and only part of the track is visible.](images/camera-view.png)
+![A screenshot of the Scene view of the example game. The camera is close to the ball and only part of the track is visible.](images/camera-view.png)
 
 Click on the **View tool** in the Scene view (the hand icon) and drag the view until you are happy with it. 
 
@@ -88,15 +88,15 @@ Add a physics material to the ball.
 
 --- task ---
 
-Click **Play** and watch your ball bounce as it lands on the ramp.
+Click 'Play' and watch your ball bounce as it lands on the ramp.
 
-![Animation showing ball dropping and bouncing on the ramp before rolling downwards.](images/ball-bounce.gif)
+![Animation showing ball dropping and bouncing on the ramp.](images/ball-bounce.gif)
 
-**Debug:** If your ball bounces too high and keeps bouncing off the track or if your ball moves too slowly you may need to adjust the values in your Physic Materials.
+**Debug:** If your ball bounces too high and keeps bouncing off the track or if your ball moves too slowly, you may need to adjust the values in your Physic Materials.
 
 --- /task ---
 
-### Camera Follow
+### Camera follow
 
 --- task ---
 
@@ -110,7 +110,7 @@ title: I don't have a CameraFollow script
 
 With 'Main Camera' selected, add a new script component called `CameraFollow`. 
 
-Drag the new script file from your Assets into the 'Scripts' folder to organise your files. 
+Drag the new script file from your Assets into the Scripts folder to organise your files. 
 
 Open the new script in your code editor. Type out or copy and paste the following code: 
 
@@ -162,18 +162,18 @@ Use the **Inspector** to set the 'Ball' attribute of the `CameraFollow` script.
 
 Select **all** the parts of your track and the **Plane** using <kbd>Shift</kbd>. 
 
-Right click and select **Create Empty Parent** - rename the new parent object "Level".
+Right-click and select **Create Empty Parent**. Rename the new parent object 'Level'.
 
 --- /task ---
 
 --- task ---
 
-With the 'Level' GameObject selected add the `TiltFloor` script component. 
+With the 'Level' GameObject selected, add the `TiltFloor` script component. 
 
 --- collapse ---
 
 ---
-title: I don't have a TiltWorld script.
+title: I don't have a TiltFloor script.
 ---
 
 With 'Level' selected, add a new script component called `TiltFloor`. 
@@ -241,9 +241,9 @@ Save your script and head back to the Unity editor.
 
 --- task ---
 
-In the Inspector set the 'Max Tilt' variable to `15` and the 'Turn Speed' to `0.5`. 
+In the Inspector, set the 'Max Tilt' variable to `15` and the 'Turn Speed' to `0.5`. 
 
-**Choose** The keys you want to use for the tilting the track. In our example we are using the <kbd>WASD</kbd> layout.
+**Choose** the keys you want to use for tilting the track. In our example, we are using the <kbd>WASD</kbd> layout.
 
 [[[unity-keyboard-conventions]]]
 
@@ -255,19 +255,19 @@ In the Inspector set the 'Max Tilt' variable to `15` and the 'Turn Speed' to `0.
 
 **Test** your world tilt and camera behaviours. 
 
-**Debug:** If your camera is too close or far away you can use 'Align view to selected' then move the Scene view until you are happy - you can then 'Align to View' to change the camera position. 
+**Debug:** If your camera is too close or far away, you can use 'Align View to Selected' then move the Scene view until you are happy. You can then 'Align to View' to change the camera position. 
 
 **Debug:** If you find your ball is bouncing when you tilt the world, try reducing the 'Max Tilt' and 'Turn Speed' values. 
 
 Make sure you can complete your level with no problems, but don't make it too easy for your players.
 
-![GIF showing the ball rolling into the 'Goal' object at the end of the track](images/finishing-level.gif)
+![GIF showing the ball rolling into the 'Goal' object at the end of the track.](images/finishing-level.gif)
 
 --- /task ---
 
 ### Reset script
 
-There is a chance your player will end up falling off the track, so you should add something to reset when this happens
+There is a chance your player will end up falling off the track, so you should add something to reset the ball position when this happens.
 
 --- task ---
 
@@ -279,7 +279,7 @@ Add a Box Collider component and check 'Is Trigger'.
 
 --- task ---
 
-In the Inspector add a new script to the 'Plane' called 'ResetTrack'.
+In the Inspector, add a new script to the 'Plane' called `ResetTrack`.
 
 Move the script into your Scripts folder.
 
@@ -329,7 +329,7 @@ public class ResetTrack : MonoBehaviour
 
 --- /code ---
 
-This script sends the 'Ball' back to it's start position and resets the Tilt of the 'Level' object.
+This script sends the 'Ball' back to its start position and resets the Tilt of the 'Level' object.
 
 Save your script and switch back to the Unity editor.
 
@@ -353,6 +353,6 @@ Select the 'Ball' GameObject and add the 'Player' tag.
 
 **Test:** Play your game and check your reset script is working and you can carry on playing afterwards. 
 
-![Animation showing the Ball falling off the track and then being reset to the top again](images/reset-demo.gif)
+![Animation showing the Ball falling off the track and then being reset to the top again.](images/reset-demo.gif)
 
 --- /task ---

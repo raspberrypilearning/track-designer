@@ -5,7 +5,7 @@
 legend: Question 2 of 3
 ---
 
-A young creator has created a 'CameraController' script that will follow a ball down a track. They keep getting the error `variable cameraTransform not been assigned`. What should they do to fix this error?
+A young creator has created a 'CameraController' script that will follow a ball down a track. They keep getting the error `variable CameraTransform not been assigned`. What should they do to fix this error?
 
 --- choices ---
 
@@ -25,11 +25,11 @@ A young creator has created a 'CameraController' script that will follow a ball 
 
   --- /feedback ---
 
-  - ( ) Delete the `cameraTransform` variable from the `CameraController` script.
+  - ( ) Delete the `CameraTransform` variable from the `CameraController` script.
 
   --- feedback ---
 
- Not quite. The script will need the `cameraTransform` variable to be set so it can move the camera. 
+ Not quite. The script will need the `CameraTransform` variable to be set so it can move the camera. 
 
   --- /feedback ---
 
