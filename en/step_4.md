@@ -2,7 +2,7 @@
 
 In this step, you will add fixed and spinning obstacles for the ball to bounce off.
 
-![Three example outputs for how tracks might look with interactive objects at the end of this step.](images/output4-strip.png)
+![A row of three example outputs for how tracks might look with interactive objects at the end of this step. Each example shows a 3D theme park style race track with obstacles](images/output4-strip.png)
 
 ### Add obstacles
 
@@ -62,7 +62,7 @@ In this step, you will add fixed and spinning obstacles for the ball to bounce o
 
 **Test** your project. See if the physics materials that you have added create the desired effect.
 
-![Three example outputs for how tracks might look with interactive objects at the end of this step.](images/output4-strip.png)
+![A row of three example outputs for how tracks might look with interactive objects at the end of this step. Each example shows a 3D theme park style race track with obstacles](images/output4-strip.png)
 
 --- /task ---
 
