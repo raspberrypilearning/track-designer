@@ -2,7 +2,7 @@
 
 In this step, you will add effects to your track and your goal. 
 
-![A row of four images showing example outputs for this step. Each output shows colourful 3D theme park style slides](images/output-string.png)
+![A collection of images showing example outputs for this step. Four different colourful tracks leading to open-boxed goals are shown.](images/output-string.png)
 
 ### Add effects to your track
 
