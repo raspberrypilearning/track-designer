@@ -9,7 +9,7 @@ You will:
 + Decide whether the camera will follow the ball or stay still
 + Configure physics materials to control how objects interact
 
-![A row of three example project images, the first from the left shows some balls rolling through a column of dominoes, the middle image shows a 3D blue and orange rollercoaster, while the third image shows a 3D theme-park style race track.](images/final-strip.png)
+![A row of three example project images, the first from the left shows some balls rolling through a column of dominoes, the middle image shows a 3D blue and orange rollercoaster while the third image shows a 3D theme-park style race track.](images/final-strip.png)
 
 ### You will need
 
@@ -23,12 +23,12 @@ You can follow our [Unity guide](https://projects.raspberrypi.org/en/projects/un
 
 Tilt the world using the <kbd>WASD</kbd> keys to roll the marble down the track.
 
-<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner" scrolling = "no" frameborder="0" alt="A demo of an example completed project of a 3D theme-park style race track with obstacles. Players can use the keyboard to control tilting the camera, and rolling a ball across the track"></iframe>
+<iframe allowtransparency="true" width="710" height="500" src="https://raspberrypilearning.github.io/unity-webgl/TrackDesigner" scrolling = "no" frameborder="0" alt="A demo of an example completed project of a 3D theme-park style race track with obstacles. Players can use the keyboard to control tilting the camera and rolling a ball across the track"></iframe>
 
 --- /no-print ---
 
 --- print-only ---
-![A purple grid showing a 3D bird's eye view of a purple and white theme-park style racetrack, with various obstacles on each part of the race which is an example result of this project](images/final-project.png)
+![A purple grid showing a 3D bird's eye view of a purple and white theme-park style racetrack with various obstacles on each part of the race which is an example result of this project](images/final-project.png)
 --- /print-only ---
 
 ### Get ideas 💭
