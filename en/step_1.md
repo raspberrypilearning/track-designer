@@ -28,7 +28,7 @@ Tilt the world using the <kbd>WASD</kbd> keys to roll the marble down the track.
 --- /no-print ---
 
 --- print-only ---
-![Complete project](images/final-project.png)
+![3D bird's eye view of a purple and white racetrack with obstacles which is an example result of this project](images/final-project.png)
 --- /print-only ---
 
 ### Get ideas 💭
