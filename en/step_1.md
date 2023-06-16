@@ -9,7 +9,7 @@ You will:
 + Decide whether the camera will follow the ball or stay still
 + Configure physics materials to control how objects interact
 
-![A row of three example project images, the first from the left shows some balls rolling through a column of dominoes, the middle image shows a 3D blue and orange rollercoaster while the third image shows a 3D theme-park style race track.](images/final-strip.png)
+![A row of three example project images, the first from the left shows some balls rolling through a column of dominoes, the middle image shows a 3D blue and orange rollercoaster while the third image shows a 3D theme park style race track.](images/final-strip.png)
 
 ### You will need
 
@@ -28,7 +28,9 @@ Tilt the world using the <kbd>WASD</kbd> keys to roll the marble down the track.
 --- /no-print ---
 
 --- print-only ---
+
 ![A purple grid showing a 3D bird's eye view of a purple and white theme-park style racetrack with various obstacles on each part of the race which is an example result of this project](images/final-project.png)
+
 --- /print-only ---
 
 ### Get ideas 💭
